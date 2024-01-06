@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">E-COMMERCE </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">offers</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">contact</a></li>
+                <i class="bx bxs-cart-alt"></i>
+            </ul>
+    </nav>
+
+       <div class="flex-box">
+            <div class="left">
+                 <div class="big-img">
+                      <img src="MEDIA/IMG-20240101-WA0037.jpg">
+                 </div>
+                 <div class="images">
+                      <div class="small-img">
+                          <img src="MEDIA/IMG-20231228-WA0007.jpg" onclick="showImg(this.src)">
+                      </div>
+                      <div class="small-img">
+                             <img src="MEDIA/IMG-20231225-WA0106.jpg" onclick="showImg(this.src)">
+                      </div>
+                      <div class="small-img">
+                             <img src="MEDIA/IMG-20231225-WA0108.jpg" onclick="showImg(this.src)">
+                      </div> 
+                      <div class="small-img">
+                        <img src="MEDIA/IMG-20231228-WA0009.jpg" onclick="showImg(this.src)">
+                 </div> 
+                 </div>
+            </div>
+            <div class="right">
+                <div class="url">Home > Products > habit</div>
+                <div class="pname">habit for Men</div>
+                <div class="rattings">
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                </div>
+                <div class="price">$40</div>
+                <div class="size">
+                    <p>Size :</p>
+                    <div class="psize active">M</div>
+                    <div class="psize">L</div>
+                    <div class="psize">XL</div>
+                    <div class="psize">XXL</div>
+                 </div>
+                 <div class="quantity">
+                    <p>Quantity :</p>
+                    <input type="number" min="1" max="5" value="1">
+                 </div>
+                 <div class="btn-box">
+                    <button class="cart-btn">Add to Cart</button>
+                    <button class="buy-btn">Buy Now</button>
+                 </div>
+            </div>
+        </div>
+       
+   <script src="main.js"></script>
+</body>
+</html>
